@@ -1,0 +1,42 @@
+.body {
+    width: 100%;
+    background-image: url(../img/bg_head.png);
+    background-size: auto 100%;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+.square {
+    width: 320px;
+    height: 320px;
+    border: 4px solid white;
+    margin: 0 auto;
+    margin-top: 9.8vw;
+}
+.inSquare {
+    padding: 67px;
+    padding-top: 100px;
+}
+.inSquare * {
+    text-align: center;
+}
+.inSquare p {
+    font-size: 22px;
+    color: white;
+    font-family: 'PT Sans', sans-serif;
+    margin: 0;
+}
+
+.text {
+    margin-top: 80px;
+    margin-bottom: 110px;
+}
+.text p {
+    color: white;
+    font-family: 'PT Sans', sans-serif;
+    text-align: center;
+    margin: 0 auto;
+    line-height: 24px;
+    width: 34%;
+    font-size: 16px;
+}

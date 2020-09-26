@@ -1,0 +1,21 @@
+.brand {
+    background-color: #0F0F0F;
+    width: 100%;
+}
+.brand h1 {
+    padding-top: 60px;
+}
+
+.brandIn {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    box-sizing: border-box;
+}
+.brandIn img {
+    margin: 35px 30px 60px 0;
+}
+
+.brandIn img:hover {
+    cursor: pointer;
+}

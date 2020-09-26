@@ -1,0 +1,148 @@
+.season {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.leftBlock {
+    flex: 1;
+    padding: 30px;
+    margin-bottom: 50px;
+}
+.leftBlock {
+    text-align: center;
+}
+.title {
+    color: white;
+    font-family: 'Playfair Display', serif;
+    margin-bottom: 40px;
+    text-align: center;
+}
+.product {
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.blockClock {
+    width: 11.4vw;
+    padding-left: 30px;
+    padding-right: 80px;
+}
+.clock {
+    width: inherit;
+    background-color: #191B1C;
+    margin-bottom: 25px;
+    padding: 45px 23px 45px 23px;
+}
+.clock:hover {
+    background-color: #1F1F1F;
+    cursor: pointer;
+    transition: 0.4s;
+}
+.clock img {
+    width: inherit;
+}
+.clockText {
+    font-family: 'Playfair Display', serif;
+    color: white;
+    float: left;
+    display: flex;
+    width: inherit;
+    line-height: 10px;
+}
+
+/*правая часть*/
+
+.rightBlock {
+    flex: 0.7;
+    background-image: url(../img/bg_right_block.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    padding-left: 80px;
+    padding-right: 80px;
+    width: 100%;
+    height: 730px;
+}
+.rightBlock * {
+    text-align: center;
+    position: relative;
+    top: 60%;
+    left: 0;
+    right: 0;
+}
+.button {
+    font-size: 18px;
+    font-family: 'PT Sans', sans-serif;
+    text-align: center;
+    line-height: 32px;
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+    display: block;
+    width: 130px;
+    height: 30px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+.button:hover {
+    background-color: white;
+    color: black;
+    transition: 0.4s;
+}
+
+/*коллекция*/
+
+.leftBlockBottom {
+    flex: 0.5;
+    background-repeat: no-repeat;
+    background-image: url(../img/bg_left_block.png);
+    background-position: center;
+    height: 600px;
+}
+
+.rightBlockBottom {
+    flex: 0.5;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.rightBlockBottom p {
+    color: white;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 14px;
+    line-height: 21px;
+    max-width: 470px;
+    margin: 0 auto;
+    padding-top: 40px;
+}
+.bottom {
+    width: 255px;
+}
+
+@media (max-width: 1834px) {
+    .leftBlock {
+        flex: 1.5;
+        padding: 30px;
+    }
+    .product {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
+
+@media (max-width: 1470px) {
+    .leftBlock {
+        flex: 100%;
+    }
+    .product {
+        justify-content: space-evenly;
+    }
+    .clock {
+        margin-right: 0;
+    }
+
+    .rightBlock {
+        background-position: center;
+        margin: 0 auto;
+        padding: 0;
+    }
+}

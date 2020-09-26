@@ -1,0 +1,121 @@
+body {
+    background-color: black;
+    margin: 0;
+}
+.hair {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 7px;
+}
+.work_time {
+    max-width: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.work_time * {
+    font-size: 12px;
+    font-family: 'PT Sans', sans-serif;
+    color: gray;
+    margin-right: 13px;
+}
+.icon_phone {
+    width: 13.36px;
+    height: 13.36px;
+    background-image: url(../icon/phone.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    transform: translateY(3px);
+}
+
+.login {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 12px;
+}
+.login * {
+    text-decoration: none;
+    color: gray;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 12px;
+    margin-right: 3px;
+}
+.icon_login {
+    background-image: url(../icon/login.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 15px;
+    height: 15px;
+    margin-right: 10px;
+    transform: translateY(-10.5px);
+}
+.head {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #0F0F0F;
+}
+.logo {
+    background-image: url(../img/logo.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 104px;
+    height: 49px;
+    margin-top: 40px;
+}
+.function {
+    display: flex;
+    flex-wrap: wrap;
+}
+.buttons {
+    display: flex;
+    flex-wrap: wrap;
+}
+.buttons * {
+    width: 136px;
+    margin: 0;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 45px;
+    text-align: center;
+}
+.buttons *:hover {
+    background-color: #1F1F1F;
+    transition: 0.4s;
+    cursor: pointer;
+}
+.function * {
+    color: gray;
+    font-family: 'PT Sans', sans-serif;
+}
+.icon {
+    display: flex;
+    justify-content: space-between;
+    width: 80px;
+    padding-top: 41px;
+    margin-left: 30px;
+}
+.icon * {
+    margin: 0 auto;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 22px;
+    height: 22px;
+}
+.icon *:hover {
+    padding: 3px;
+    transition: 0.4s;
+    cursor: pointer;
+}
+.shop {
+    background-image: url(../icon/shop.png);
+    margin-right: 29px;
+}
+.search {
+    background-image: url(../icon/search.png);
+}

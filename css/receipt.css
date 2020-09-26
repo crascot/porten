@@ -1,0 +1,35 @@
+.receipt {
+    width: 100%;
+    margin-top: 120px;
+}
+
+.block {
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 30px 210px 150px 210px;
+}
+
+.block div {
+    margin-top: 20px;
+}
+
+@media (max-width: 1526px) {
+    .block {
+        padding: 30px 165px 150px 165px;
+    }
+    .block div .clock img {
+        margin-left: 0;
+    }
+}
+@media (max-width: 1320px) {
+    .block {
+        padding: 30px 140px 150px 140px;
+    }
+}
+@media (max-width: 1272px) {
+    .block {
+        padding: 30px 100px 150px 100px;
+
+}

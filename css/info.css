@@ -1,0 +1,78 @@
+.info {
+    background-image: url(../img/bg_info.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.info .infoIn {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    width: 59%;
+    margin: 0 auto;
+}
+.info div {
+    flex: 1;
+}
+.info div * {
+    text-align: left;
+    color: white;
+}
+.info div p {
+    font-family: 'PT Sans', sans-serif;
+    line-height: 21px;
+    font-size: 13px;
+    padding-top: 12px;
+}
+
+.categories {
+    padding: 0 31px 0 31px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.categories h1 {
+    width: 100%;
+}
+.infoButton {
+    display: block;
+    background-color: black;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 14px;
+    text-decoration: none;
+    text-align: center;
+    padding: 15px 20px;
+    margin: 15px;
+}
+.infoButton:hover {
+    background-color: white;
+    color: black;
+    transition: 0.4s;
+}
+
+.mail {
+    margin-top: 40px;
+    display: flex;
+}
+.mail input {
+    background-color: rgba(255, 255, 255, 0.4);
+}
+::placeholder {
+    color: white;
+    opacity: 0.5;
+    margin-left: 20px;
+}
+.mail a {
+    padding: 10px 20px;
+    margin: 0;
+}
+
+.end {
+    width: 60%;
+    margin: 0 auto;
+}
+.end p {
+    font-size: 14px;
+    color: white;
+    font-family: 'PT Sans', sans-serif;
+    margin-top: 0;
+}

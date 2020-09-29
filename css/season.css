@@ -20,6 +20,7 @@
 .product {
     padding-top: 50px;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
 }
 .blockClock {
@@ -42,9 +43,9 @@
     width: inherit;
 }
 .clockText {
+    font-size: 1vw;
     font-family: 'Playfair Display', serif;
     color: white;
-    float: left;
     display: flex;
     width: inherit;
     line-height: 10px;
@@ -57,10 +58,11 @@
     background-image: url(../img/bg_right_block.png);
     background-repeat: no-repeat;
     background-position: left;
+    background-size: cover;
     padding-left: 80px;
     padding-right: 80px;
     width: 100%;
-    height: 730px;
+    height: 38vw;
 }
 .rightBlock * {
     text-align: center;
@@ -68,20 +70,22 @@
     top: 60%;
     left: 0;
     right: 0;
+    font-size: 2vw;
 }
 .button {
     font-size: 18px;
     font-family: 'PT Sans', sans-serif;
     text-align: center;
-    line-height: 32px;
+    line-height: 1.6vw;
     text-decoration: none;
     color: white;
     border: 1px solid white;
     display: block;
-    width: 130px;
-    height: 30px;
+    width: 6vw;
+    height: 1.5vw;
     margin: 0 auto;
     margin-top: 30px;
+    padding: 12px 28px;
 }
 .button:hover {
     background-color: white;
@@ -96,6 +100,7 @@
     background-repeat: no-repeat;
     background-image: url(../img/bg_left_block.png);
     background-position: center;
+    background-size: cover;
     height: 600px;
 }
 
@@ -103,6 +108,7 @@
     flex: 0.5;
     text-align: center;
     padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 .rightBlockBottom p {
@@ -133,6 +139,10 @@
     .leftBlock {
         flex: 100%;
     }
+    .rightBlock {
+        flex: 100%;
+        height: 40vw;
+    }
     .product {
         justify-content: space-evenly;
     }
@@ -144,5 +154,61 @@
         background-position: center;
         margin: 0 auto;
         padding: 0;
+    }
+    .rightBlock * {
+        text-align: center;
+        position: relative;
+        top: 50%;
+        left: 0;
+        right: 0;
+    }
+    .season h1 {
+        font-size: 2.5vw;
+    }
+
+    .leftBlockBottom {
+        display: none;
+    }
+    .rightBlockBottom {
+        background-repeat: no-repeat;
+        background-image: url(../img/bg_left_block.png);
+        background-position: center;
+        background-size: cover;
+        flex: 100%;
+    }
+    .rightBlockBottom p {
+        font-size: 1vw;
+    }
+}
+
+@media (max-width: 1185px) {
+    .rightBlock h1 {
+        margin-bottom: 3vw;
+    }
+    .rightBlock .button {
+        font-size: 1.5vw;
+        width: 6vw;
+        height: 1.5vw;
+    }
+}
+
+@media (max-width: 940px) {
+    .rightBlock .button {
+        font-size: 1.55vw;
+    }
+    .season h1 {
+        font-size: 3vw;
+        margin-bottom: 20px;
+    }
+    .rightBlockBottom p {
+        font-size: 1.5vw;
+        padding-top: 0;
+        margin-top: 30px;
+    }
+}
+
+@media (max-width: 930px) {
+    .clockText {
+        font-size: 1.3vw;
     }
 }

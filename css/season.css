@@ -212,3 +212,47 @@
         font-size: 1.3vw;
     }
 }
+
+@media (max-width: 666px) {
+    .leftBlock {
+        margin-bottom: 0;
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+    .season h1 {
+        margin-top: 0;
+        font-size: 23px;
+    }
+    .product {
+        padding-top: 20px;
+    }
+    .blockClock {
+        width: inherit;
+        padding: 0;
+    }
+    .clock {
+        padding: 20px;
+    }
+    .clock img {
+        width: 100px;
+        height: 100px;
+    }
+    .clockText {
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 540px) {
+    .leftBlock {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .product {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .clock img {
+        width: 15vw;
+        height: 15vw;
+    }
+}

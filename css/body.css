@@ -43,17 +43,21 @@
 
 @media (max-width: 760px) {
     .square {
-        width: 280px;
-        height: 280px;
+        width: 230px;
+        height: 230px;
+        margin-top: 5vw;
     }
     .inSquare {
-        padding: 50px;
-        padding-top: 90px;
+        padding: 27px;
+        padding-top: 73px;
     }
     .inSquare p {
         font-size: 21px;
     }
-
+    .text {
+        margin-top: 60px;
+        margin-bottom: 38px;
+    }
     .text p {
         width: 60%;
     }

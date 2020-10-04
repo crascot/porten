@@ -73,7 +73,7 @@
     font-size: 2vw;
 }
 .button {
-    font-size: 18px;
+    font-size: inherit;
     font-family: 'PT Sans', sans-serif;
     text-align: center;
     line-height: 1.6vw;
@@ -213,6 +213,12 @@
     }
 }
 
+@media (max-width: 840px) {
+    .rightBlock * {
+        bottom: inherit;
+    }
+}
+
 @media (max-width: 666px) {
     .leftBlock {
         margin-bottom: 0;
@@ -240,6 +246,9 @@
     .clockText {
         font-size: 10px;
     }
+    .rightBlock * {
+        top: 40%;
+    }
 }
 
 @media (max-width: 540px) {
@@ -254,5 +263,8 @@
     .clock img {
         width: 15vw;
         height: 15vw;
+    }
+    .rightBlock * {
+        position: initial;
     }
 }

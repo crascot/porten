@@ -120,7 +120,6 @@ span {
 }
 .search {
     background-image: url(../icon/search.png);
-    margin-right: 5px;
 }
 
 @media (max-width: 880px) {
@@ -135,6 +134,20 @@ span {
     .function * {
         padding: 0;
     }
+    .buttons * {
+        width: 20vw;
+    }
+    .buttons *:hover {
+        background-color: #0F0F0F;
+    }
+    .icon *:hover {
+        padding: 0;
+    }
+}
+@media (max-width: 678px) {
+    .buttons * {
+        width: 25vw;
+    }
 }
 
 @media (max-width: 600px) {
@@ -148,7 +161,7 @@ span {
         justify-content: center;
     }
     .hair * {
-        font-size: 2.2vw;
+        font-size: 12px;
     }
     .function {
         padding-top: 20px;
@@ -156,18 +169,25 @@ span {
         width: 100%;
     }
     .function * {
-        font-size: 2.5vw;
+        font-size: 13px;
     }
     .function .buttons {
         width: 100%;
         justify-content: center;
     }
     .icon {
-        width: 100%;
+        width: 20%;
         padding-top: 20px;
-    }
-    .icon p {
         margin: 0 auto;
-        display: inline-block;
+    }
+}
+@media (max-width: 441px) and (min-width: 320px) {
+    .buttons * {
+        font-size: 2.9vw;
+    }
+}
+@media (max-width: 363px) {
+    .hair * {
+        font-size: 10px;
     }
 }

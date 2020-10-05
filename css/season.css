@@ -70,7 +70,6 @@
     top: 60%;
     left: 0;
     right: 0;
-    font-size: 2vw;
 }
 .button {
     font-size: inherit;
@@ -101,7 +100,6 @@
     background-image: url(../img/bg_left_block.png);
     background-position: center;
     background-size: cover;
-    height: 600px;
 }
 
 .rightBlockBottom {
@@ -154,18 +152,13 @@
         background-position: center;
         margin: 0 auto;
         padding: 0;
+        height: 550px;
     }
-    .rightBlock * {
+    .rightBlock div {
         text-align: center;
         position: relative;
-        top: 50%;
-        left: 0;
-        right: 0;
+        bottom: inherit;
     }
-    .season h1 {
-        font-size: 2.5vw;
-    }
-
     .leftBlockBottom {
         display: none;
     }
@@ -176,14 +169,14 @@
         background-size: cover;
         flex: 100%;
     }
-    .rightBlockBottom p {
-        font-size: 1vw;
-    }
 }
 
 @media (max-width: 1185px) {
-    .rightBlock h1 {
+    .season .title {
         margin-bottom: 3vw;
+    }
+    .rightBlock {
+        height: 500px;
     }
     .rightBlock .button {
         font-size: 1.5vw;
@@ -194,14 +187,15 @@
 
 @media (max-width: 940px) {
     .rightBlock .button {
-        font-size: 1.55vw;
+        font-size: 12px;
+        width: 60px;
+        height: 7px;
+        line-height: 10px;
     }
-    .season h1 {
-        font-size: 3vw;
+    .season .title {
         margin-bottom: 20px;
     }
     .rightBlockBottom p {
-        font-size: 1.5vw;
         padding-top: 0;
         margin-top: 30px;
     }
@@ -213,19 +207,16 @@
     }
 }
 
-@media (max-width: 840px) {
-    .rightBlock * {
-        bottom: inherit;
-    }
-}
-
 @media (max-width: 666px) {
     .leftBlock {
         margin-bottom: 0;
         padding-top: 25px;
         padding-bottom: 25px;
     }
-    .season h1 {
+    .rightBlock {
+        height: 400px;
+    }
+    .season .title {
         margin-top: 0;
         font-size: 23px;
     }
@@ -246,9 +237,6 @@
     .clockText {
         font-size: 10px;
     }
-    .rightBlock * {
-        top: 40%;
-    }
 }
 
 @media (max-width: 540px) {
@@ -264,7 +252,18 @@
         width: 15vw;
         height: 15vw;
     }
-    .rightBlock * {
-        position: initial;
+    .rightBlockBottom {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .rightBlockBottom p {
+        font-size: 13px;
+    }
+}
+@media (max-width: 376px) {
+    .rightBlockBottom .button {
+        padding-left: 0;
+        padding-right: 0;
+        width: 90%;
     }
 }

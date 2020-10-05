@@ -14,22 +14,11 @@
 .block div {
     margin-top: 20px;
 }
-
-@media (max-width: 1526px) {
-    .block {
-        padding: 30px 165px 150px 165px;
-    }
-    .block div .clock img {
-        margin-left: 0;
-    }
+.receipt .blockClock {
+    padding-left: 45px;
+    padding-right: 45px;
+    width: 220px;
 }
-@media (max-width: 1320px) {
-    .block {
-        padding: 30px 140px 150px 140px;
-    }
-}
-@media (max-width: 1272px) {
-    .block {
-        padding: 30px 100px 150px 100px;
-
+.receipt .blockClock p {
+    font-size: 18px;
 }

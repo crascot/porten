@@ -14,12 +14,12 @@
 .block div {
     margin-top: 20px;
 }
-.receipt .blockClock {
+.blockClock {
     padding-left: 45px;
     padding-right: 45px;
     width: 220px;
 }
-.receipt .blockClock p {
+.blockClock p {
     font-size: 18px;
 }
 
@@ -27,10 +27,10 @@
     .block {
         padding: 30px 180px 150px 180px;
     }
-    .receipt .blockClock {
+    .blockClock {
         width: 180px;
     }
-    .receipt .blockClock p {
+    .blockClock p {
         font-size: 15px;
     }
 }
@@ -42,10 +42,11 @@
     .block {
         padding: 30px 60px 150px 60px;
     }
-    .receipt .blockClock {
+    .blockClock {
         width: 140px;
+        margin-bottom: 30px;
     }
-    .receipt .blockClock p {
+    .blockClock p {
         font-size: 15px;
     }
 }
@@ -59,9 +60,5 @@
     }
     .clock {
         padding: 15px 5px 15px 5px;
-    }
-    .clock img {
-        width: inherit;
-        height: inherit;
     }
 }

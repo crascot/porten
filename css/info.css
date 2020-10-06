@@ -52,7 +52,7 @@
 }
 
 .mail {
-    margin-top: 40px;
+    margin-top: 37px;
     display: flex;
 }
 .mail input {
@@ -102,13 +102,20 @@
 }
 
 @media (max-width: 1107px) {
+    .info {
+        padding-top: 0;
+    }
+    .info div {
+        padding-top: 30px;
+    }
     .info .infoIn {
         width: 90%;
-        padding-top: 15px;
-        padding-bottom: 15px;
+        padding-top: 0;
+        padding-bottom: 30px;
     }
     .info .title {
         font-size: 25px;
+        margin-top: 0;
         margin-bottom: 25px;
     }
     .info div p {
@@ -131,13 +138,15 @@
         text-align: center;
     }
 }
-
 @media (max-width: 746px) {
     .info div {
         flex: 100%;
     }
     .categories {
         justify-content: left;
+    }
+    .info div .categories_button {
+        padding-top: 20px;
     }
     .categories .title {
         text-align: left;
@@ -147,6 +156,9 @@
     }
     .infoButton {
         margin-left: 0;
+    }
+    .info div .mail {
+        padding-top: 0;
     }
 }
 

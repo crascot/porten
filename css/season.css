@@ -5,11 +5,8 @@
 }
 .leftBlock {
     flex: 1;
-    padding: 30px;
-    margin-bottom: 50px;
-}
-.leftBlock {
-    text-align: center;
+    padding: 30px 30px 0 10px;
+
 }
 .title {
     color: white;
@@ -19,6 +16,7 @@
 }
 .product {
     padding-top: 50px;
+    padding-right:30px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -127,10 +125,6 @@
         flex: 1.5;
         padding: 30px;
     }
-    .product {
-        padding-left: 10px;
-        padding-right: 10px;
-    }
 }
 
 @media (max-width: 1470px) {
@@ -201,9 +195,22 @@
     }
 }
 
-@media (max-width: 930px) {
-    .clockText {
-        font-size: 1.3vw;
+@media (max-width: 779px) and (min-width: 650px) {
+    .leftBlock .blockClock {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
+
+@media (max-width: 724px) and (min-width: 430px) {
+    .product {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .blockClock {
+        margin-left: 60px;
+        margin-right: 60px;
+        margin-bottom: 30px;
     }
 }
 
@@ -223,20 +230,6 @@
     .product {
         padding-top: 20px;
     }
-    .blockClock {
-        width: inherit;
-        padding: 0;
-    }
-    .clock {
-        padding: 20px;
-    }
-    .clock img {
-        width: 100px;
-        height: 100px;
-    }
-    .clockText {
-        font-size: 10px;
-    }
 }
 
 @media (max-width: 540px) {
@@ -247,10 +240,6 @@
     .product {
         padding-left: 0;
         padding-right: 0;
-    }
-    .clock img {
-        width: 15vw;
-        height: 15vw;
     }
     .rightBlockBottom {
         padding-left: 30px;

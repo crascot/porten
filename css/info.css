@@ -57,6 +57,8 @@
 }
 .mail input {
     background-color: rgba(255, 255, 255, 0.4);
+    border: none;
+    outline: none;
 }
 ::placeholder {
     color: white;

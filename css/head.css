@@ -30,7 +30,7 @@ span {
     background-image: url(../icon/phone.png);
     background-repeat: no-repeat;
     background-size: 100%;
-    transform: translateY(3px);
+    transform: translateY(1px);
 }
 
 .login {
@@ -44,6 +44,7 @@ span {
     font-family: 'PT Sans', sans-serif;
     font-size: 12px;
     line-height: 44px;
+    margin-right: 5px;
 }
 .icon_login {
     background-image: url(../icon/login.png);
@@ -110,8 +111,6 @@ span {
     height: 22px;
 }
 .icon *:hover {
-    padding: 3px;
-    transition: 0.4s;
     cursor: pointer;
 }
 .shop {
@@ -140,9 +139,6 @@ span {
     .buttons *:hover {
         background-color: #0F0F0F;
     }
-    .icon *:hover {
-        padding: 0;
-    }
 }
 @media (max-width: 678px) {
     .buttons * {
@@ -154,7 +150,7 @@ span {
     .hair div {
         width: 100%;
     }
-    span {
+    .work_time span {
         display: none;
     }
     .login {
@@ -182,6 +178,12 @@ span {
     }
 }
 @media (max-width: 441px) and (min-width: 320px) {
+    .work_time {
+        margin: 0 10px 0 10px;
+    }
+    .work_time p {
+        margin-right: 0;
+    }
     .buttons * {
         font-size: 2.9vw;
     }

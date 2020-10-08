@@ -27,7 +27,7 @@ span {
 }
 .icon_phone {
     width: 13.36px;
-    background-image: url(../icon/phone.png);
+    background-image: url(../icon/phone.svg);
     background-repeat: no-repeat;
     background-size: 100%;
     transform: translateY(1px);
@@ -47,7 +47,7 @@ span {
     margin-right: 5px;
 }
 .icon_login {
-    background-image: url(../icon/login.png);
+    background-image: url(../icon/login.svg);
     background-repeat: no-repeat;
     background-size: 100% auto;
     width: 15px;
@@ -114,11 +114,11 @@ span {
     cursor: pointer;
 }
 .shop {
-    background-image: url(../icon/shop.png);
+    background-image: url(../icon/shop.svg);
     margin-right: 29px;
 }
 .search {
-    background-image: url(../icon/search.png);
+    background-image: url(../icon/search.svg);
 }
 
 @media (max-width: 880px) {

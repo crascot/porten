@@ -70,6 +70,9 @@
     .receipt {
         margin-top: 40px;
     }
+    .block {
+        padding: 10px 0;
+    }
     .clock {
         padding: 15px 5px 15px 5px;
     }

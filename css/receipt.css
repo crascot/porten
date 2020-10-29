@@ -4,11 +4,13 @@
 }
 
 .block {
+    max-width: 1240px;
+    width: 100%;
     margin: 0 auto;
+    padding: 30px 0 150px 0;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    padding: 30px 210px 150px 210px;
 }
 
 .block div {
@@ -17,7 +19,8 @@
 .blockClock {
     padding-left: 45px;
     padding-right: 45px;
-    width: 220px;
+    max-width: 220px;
+    width: 100%;
 }
 .blockClock p {
     font-size: 18px;
@@ -25,7 +28,7 @@
 
 @media (max-width: 1659px) and (min-width: 1100px) {
     .block {
-        padding: 30px 180px 150px 180px;
+        padding: 30px 0 150px 0;
     }
     .blockClock {
         width: 180px;
@@ -35,12 +38,24 @@
     }
 }
 
+@media (max-width: 919px) {
+    .block {
+        padding-left: -30px;
+        padding-right: -30px;
+    }
+
+    .blockClock {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+}
+
 @media (max-width: 1099px) and (min-width: 725px) {
     .receipt {
         margin-top: 60px;
     }
     .block {
-        padding: 30px 60px 150px 60px;
+        padding: 30px 0 150px 0;
     }
     .blockClock {
         width: 140px;
